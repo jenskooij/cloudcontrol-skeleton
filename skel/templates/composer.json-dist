@@ -5,5 +5,13 @@
     "require": {
         "php": ">=7.1.x",
         "jenskooij/cloudcontrol": "^1.0"
-    }
+    },
+     "scripts": {
+        "post-update-cmd": [
+          "CloudControl\\Cms\\CloudControl::postUpdate"
+        ],
+        "post-install-cmd": [
+          "CloudControl\\Cms\\CloudControl::postInstall"
+        ]
+      }
 }
