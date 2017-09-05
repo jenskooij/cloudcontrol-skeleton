@@ -14,7 +14,7 @@
     ],
     "scripts": {
         "post-create-project-cmd": [
-            "skel/install.php"
+            "php skel/install.php"
         ]
     }
 }

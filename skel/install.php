@@ -1,8 +1,8 @@
 <?php
 
-echo '*******************************************************************************';
-echo '* Cloud Control Skeleton Installer                                            *';
-echo '*******************************************************************************';
+echo '*******************************************************************************' . PHP_EOL;
+echo '* Cloud Control Skeleton Installer                                            *' . PHP_EOL;
+echo '*******************************************************************************' . PHP_EOL;
 echo '';
 
 // We get the project name from the name of the path that Composer created for us.
@@ -42,7 +42,7 @@ delTree("skel");
 // We could also remove the composer.phar that the zend skeleton has here,
 // but a much better choice is to remove that one from our fork directly.
 
-echo "[Cloud Control] \033[0;32mdist script done...\n";
+echo "[Cloud Control] script done...\n";
 
 
 /**
