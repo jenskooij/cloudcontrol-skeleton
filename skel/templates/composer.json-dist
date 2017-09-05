@@ -3,7 +3,7 @@
     "description": "undescribed package",
     "license": "MIT",
     "require": {
-        "php": ">=7.1.x",
+        "php": "^5.5.0",
         "jenskooij/cloudcontrol": "^1.0"
     },
      "scripts": {
