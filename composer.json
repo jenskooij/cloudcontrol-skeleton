@@ -1,5 +1,5 @@
 {
-  "name": "jenskooij/cloudcontrol-skeleton",
+  "name": "getcloudcontrol/skeleton",
   "description": "Skeleton Project for Cloud Control CMS",
   "require": {
     "php": ">=5.5.0",
