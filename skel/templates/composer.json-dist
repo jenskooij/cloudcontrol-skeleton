@@ -1,17 +1,22 @@
 {
-    "name": "getcloudcontrol/{{ projectname }}",
-    "description": "undescribed package",
-    "license": "MIT",
-    "require": {
-        "php": "^5.5.0",
-        "getcloudcontrol/cloudcontrol": "^1.0"
-    },
-     "scripts": {
-        "post-update-cmd": [
-          "CloudControl\\Cms\\CloudControl::postUpdate"
-        ],
-        "post-install-cmd": [
-          "CloudControl\\Cms\\CloudControl::postInstall"
-        ]
-      }
+  "name": "getcloudcontrol/{{ projectname }}",
+  "description": "undescribed package",
+  "license": "MIT",
+  "require": {
+    "php": "^5.5.0",
+    "getcloudcontrol/cloudcontrol": "^1.0"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "CloudControl\\Cms\\CloudControl::postUpdate"
+    ],
+    "post-install-cmd": [
+      "CloudControl\\Cms\\CloudControl::postInstall"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "CloudControl\\components\\": "components"
+    }
+  }
 }
