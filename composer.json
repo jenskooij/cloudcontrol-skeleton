@@ -2,7 +2,7 @@
   "name": "getcloudcontrol/skeleton",
   "description": "Skeleton Project for Cloud Control CMS",
   "require": {
-    "php": ">=5.5.0",
+    "php": "^5.5|^5.6|^7",
     "getcloudcontrol/cloudcontrol": "^1.0"
   },
   "license": "MIT",
