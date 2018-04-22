@@ -11,10 +11,10 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "CloudControl\\Cms\\CloudControl::postUpdate"
+      "CloudControl\\Cms\\cc\\ComposerScripts::postUpdate"
     ],
     "post-install-cmd": [
-      "CloudControl\\Cms\\CloudControl::postInstall"
+      "CloudControl\\Cms\\cc\\ComposerScripts::postInstall"
     ]
   },
   "autoload": {
